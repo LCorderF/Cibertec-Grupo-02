@@ -9,4 +9,3 @@ class PDFDownloader:
             file.write(response.content)
 
         print(f"[OK] PDF descargado: {destino}")
-        

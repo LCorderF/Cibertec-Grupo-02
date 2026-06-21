@@ -27,4 +27,3 @@ class FileManager:
             writer.writerow(datos)
 
         print(f"[OK] Datos guardados en CSV: {archivo_csv}")
-        

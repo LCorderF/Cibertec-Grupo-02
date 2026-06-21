@@ -14,4 +14,3 @@ class PDFExtractor:
 
         print("[OK] Texto extraído correctamente")
         return "\n".join(paginas)
-    
