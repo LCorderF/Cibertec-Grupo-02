@@ -28,3 +28,12 @@ class FileManager:
 
         print(f"[OK] Datos guardados en CSV: {archivo_csv}")
         
+
+    @staticmethod
+    def leer_lineas(archivo):
+        with open(archivo, "r", encoding="utf-8") as file:
+            return [
+                linea.strip()
+                for linea in file
+                if linea.strip()
+            ]
